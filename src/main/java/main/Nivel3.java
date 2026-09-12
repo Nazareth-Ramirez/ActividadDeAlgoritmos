@@ -31,10 +31,9 @@ public class Nivel3 {
             }
                 
         }//fin del for para sumar valores
-        JOptionPane.showMessageDialog(null, "El numero que usted elegia saber es: " +valor+ " y la veces que sale esa numero en la lista que nos1 dia es de: "+suma);
+        JOptionPane.showMessageDialog(null, "El numero que usted elegia saber es: " +valor+ " y la veces que sale esa numero en la lista que nos dio es de: "+suma);
         
     }//fin del metodo 11 leer y valor
-     
      
     
     public void metodo12(){

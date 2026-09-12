@@ -31,7 +31,10 @@ public class Principal {
         //Nivel5 difi = new Nivel5();
         //difi.metodo19();
         
-        Nivel5 difi = new Nivel5();
-        difi.metodo20();
+        //Nivel5 difi = new Nivel5();
+        //difi.metodo20();
+        
+        Menu actividad = new Menu();
+        actividad.MenuMetodos();
     }
 }

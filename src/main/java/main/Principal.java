@@ -12,8 +12,8 @@ public class Principal {
 
     public static void main(String[] args) {
         
-        Nivel3 nive=new Nivel3();
-        nive.metodo10();
+        Nivel4 nive=new Nivel4();
+        nive.metodo14();
         
     }
 }

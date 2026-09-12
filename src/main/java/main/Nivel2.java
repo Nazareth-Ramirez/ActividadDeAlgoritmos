@@ -56,9 +56,9 @@ public class Nivel2 {
         //mandar el mensaje
         JOptionPane.showMessageDialog(null, "Asistieron: " + asistieron + "\nFaltaron: " + faltaron
                 + String.format("\nPorcentaje de asistencia: %.2f%%", porcentaje));
-    }
+    }//fin del metodo
     
     
     
     
-}
+}//fin de la clase

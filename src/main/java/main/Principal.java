@@ -12,5 +12,8 @@ public class Principal {
 
     public static void main(String[] args) {
         
+        Nivel3 nive=new Nivel3();
+        nive.metodo9();
+        
     }
 }

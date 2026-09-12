@@ -25,7 +25,13 @@ public class Principal {
         //Nivel3 inter = new Nivel3();
         //inter.ContarChar();
         
-        Nivel4 inter = new Nivel4();
-        inter.metodo16();
+        //Nivel4 inter = new Nivel4();
+        //inter.metodo16();
+        
+        //Nivel5 difi = new Nivel5();
+        //difi.metodo19();
+        
+        Nivel5 difi = new Nivel5();
+        difi.metodo20();
     }
 }

@@ -46,4 +46,39 @@ public class Nivel3 {
         
     }//fin del metodo nueve 
     
+    
+    public void metodo10() {
+        int[] enteros = new int[10];
+
+        // hay que llenar rl arreglo con 10 enteros
+        for (int i = 0; i < enteros.length; i++) {
+            enteros[i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el número: "));
+        }
+
+        // Debemos solicitar el número a buscar
+        int buscar = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el número que desea buscar:"));
+
+        // Inicializar la posición en -1 (asumiendo por defecto que no existe)
+        int posicion = -1;
+
+        // Búsqueda lineal, se refier a recorrer el arreglo para encontrar la primera aparición
+        for (int i = 0; i < enteros.length; i++) {
+            if (enteros[i] == buscar) {
+                posicion = i; // Guardamos la primera posición encontrada
+
+            }
+        }
+
+        if (posicion != -1) {
+            JOptionPane.showMessageDialog(null, "El número " + buscar + " se encuentra en la posición del índice: " + posicion);
+        } else {
+            JOptionPane.showMessageDialog(null, "Resultado: " + posicion + " El número no existe en el arreglo");
+        }
+
+    }//fin del metodo10
+    
+    
+    
+    
+    
 }//fin de l clase 

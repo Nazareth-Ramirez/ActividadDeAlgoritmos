@@ -46,7 +46,6 @@ public class Nivel4 {
         JOptionPane.showMessageDialog(null, "original[1]: "+ original[1]+ "\ncopia[1]: "+copia[1] );
         
         
-        int[] copia2= Arrays.copyOf(original, original.length);
         
         
     }//fin del metodo 14

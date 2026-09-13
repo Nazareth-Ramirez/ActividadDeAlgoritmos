@@ -33,6 +33,39 @@ public class Nivel5 {
         
     }//fin del metodo17
     
+    public void metodo18() {
+
+        double[] precios1 = {12.50, 45.00, 8.25, 100.00, 30.00};
+        double[] precios2 = {15.00, 40.60, 5.00, 110.00, 33.50};
+
+        double[] diferencias = new double[precios1.length];
+        double sumaDiferencias = 0.0;
+
+        for (int i = 0; i < precios1.length; i++) {
+            // Calculamos la diferencia
+            double resta = precios1[i] - precios2[i];
+
+            // Si la resta dio negativa, la convertimos a positiva
+            if (resta < 0) {
+                resta = resta * -1;
+            }
+
+            diferencias[i] = resta;
+            sumaDiferencias += diferencias[i];
+        }
+
+        double promedio = sumaDiferencias / diferencias.length;
+
+        
+        
+        for (int i = 0; i < diferencias.length; i++) {
+            JOptionPane.showMessageDialog(null, "Diferencia " + (i + 1) + ": " + diferencias[i]);
+        }
+
+        JOptionPane.showMessageDialog(null,"Promedio: " + promedio);
+
+    }//fin dle metodo
+    
     
     
     

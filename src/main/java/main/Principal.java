@@ -12,8 +12,8 @@ public class Principal {
 
     public static void main(String[] args) {
         
-        Nivel5 nive=new Nivel5();
-        nive.metodo17();
+       Menu mimenu=new Menu();
+       mimenu.menuPrincipal();
         
     }
 }
